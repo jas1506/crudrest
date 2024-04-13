@@ -1,0 +1,4 @@
+
+#Cria um produto com base no conteúdo do arquivo "produto-pao.json"
+
+curl -X POST http://localhost:8080/produtos -H "Content-type: application/json; Charset=utf-8" -d @produto-pao.json
